@@ -1,0 +1,579 @@
+﻿body
+{
+    background-position: top;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    font-family: tahoma;
+    font-size: 12px;
+    direction: rtl;
+    background-image: url('../img/background.jpg');
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+    background-color: #274A14;
+}
+
+
+
+input
+{
+    border: 1px solid #669999;
+    font-family: tahoma;
+    font-size: 11px;
+}
+
+
+.GoogleMapLeftDiv
+{
+    padding: 6px;
+    font-family: tahoma;
+    font-size: 11px;
+    position: fixed;
+    top: 86px;
+    right: 270px;
+    bottom: 509px;
+    width: 200px;
+    display: block;
+    float: right;
+    overflow: scroll;
+    z-index: 0;
+    background-color: #FFFFFF;
+}
+.GoogleMapLeftDivItems
+{
+    font-family: tahoma;
+    font-size: 11px;
+}
+
+.EventsDiv
+{
+    font-family: tahoma;
+    font-size: 11px;
+    padding: 3px;
+}
+
+.GoogleMapEventPage
+{
+    position: fixed;
+    width: 200px;
+    top: 300px;
+    height:150px;
+
+    left: 0px;
+    display: block;
+    float: right;
+    color: #000000;
+    filter: alpha(opacity=65);
+    mozopacity: 0.75;
+    khtmlopacity: 0.75;
+    opacity: 0.75;
+    background-color: #FFFFFF;
+    direction: rtl;
+    font-family: tahoma;
+    font-size: 11px;
+    
+}
+
+
+.PrevWayDivGoogleMap
+{
+    font-family: tahoma;
+    font-size: 11px;
+    background-color: #FFFFFF;
+    position: fixed;
+    right: 220px;
+    bottom: 0px;
+    left: 220px;
+    display: block;
+    float: right;
+    overflow: scroll;
+    filter: alpha(opacity=65);
+    mozopacity: 0.75;
+    khtmlopacity: 0.75;
+    opacity: 0.75;
+    height: 200px;
+
+}
+
+
+
+.MapLabel {background-color:#ffffff;font-weight:bold;border:2px #006699 solid;}
+
+
+#div_STATIC_top
+{
+    overflow: hidden;
+    visibility: visible;
+    display: block;
+    float: right;
+    height: 60px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    vertical-align: bottom;
+}
+#div_CENTER
+{
+    top: 45px;
+    right: 150px;
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+    overflow: hidden;
+    float: right;
+    width: 100%;
+}
+#div_STATIC_button
+{
+
+}
+td
+{
+vertical-align:top;
+}
+
+
+
+#div_RightBar
+{
+    padding: 7px;
+    top: 50px;
+    bottom: 0px;
+    position: fixed;
+    overflow: -moz-scrollbars-vertical;
+    width: 150px;
+    right: 0px;
+}
+#div_RightBarPOI
+{
+    border: 1px solid #666666;
+    padding: 7px;
+    top: 50px;
+    bottom: 20px;
+    position: fixed;
+    overflow: -moz-scrollbars-vertical;
+    width: 148px;
+    right: 25px;
+    background-color: #FFFFFF;
+}
+
+#div_Center_inf_poi
+{
+    padding: 7px;
+    top: 40px;
+    right: 190px;
+    bottom: 5px;
+    left: 0px;
+    position: fixed;
+    z-index: 9999;
+    -moz-border-radius: 10px;
+    
+    background-color: #000000;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+#div_Center_inf
+{
+    padding: 7px;
+    top: 40px;
+    right: 170px;
+    bottom: 5px;
+    left: 0px;
+    position: fixed;
+    z-index: 9999;
+    -moz-border-radius: 10px;
+    
+    background-color: #000000;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+span
+{
+    font-family: tahoma;
+    font-size: 11px;
+}
+
+a
+{
+    font-family: tahoma;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #0000CC;
+    text-decoration: underline;
+}
+a:hover
+{
+    font-family: tahoma;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #336699;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#tbl_prev_links td
+{
+    background-color: #EFEFEF;
+}
+
+.div_RightBarCarsList
+{
+    height: 200px;
+    overflow: -moz-scrollbars-vertical;
+    width: 100%;
+    
+}
+
+#tbl_MainMenu
+{
+    height: 20px;
+}
+#tbl_MainMenu td
+{
+    border: 1px none #0099FF;
+    text-align: center;
+    vertical-align: bottom;
+    padding-bottom: 3px;
+}
+#tbl_MainMenu td a
+{
+    text-decoration: none;
+    font-family: tahoma;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+#tbl_MainMenu td a:hover
+{
+    text-decoration: none;
+    font-family: tahoma;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    cursor: pointer;
+}
+
+.LastPosDialg
+{
+    padding: 5px;
+    font-family: tahoma;
+    font-size: 11px;
+    background-color: #FFFFFF;
+    border: 1px solid #0000FF;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    width: 120px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#LastPosDialg a
+{
+    font-family: tahoma;
+    font-size: 11px;
+    font-weight: bold;
+    color: #0033CC;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none;
+}
+#LastPosDialg a:hover
+{
+    font-family: tahoma;
+    font-size: 11px;
+    font-weight: bold;
+    color: #00CC66;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none;
+}
+
+#div_loading
+{
+    visibility: hidden;
+}
+#OnlinePositions
+{
+    height: 100px;
+    width: 100%;
+}
+
+#commandsDIV
+{
+    padding: 4px;
+    font-family: tahoma;
+    font-size: 11px;
+    width: 150px;
+    height: 250px;
+    overflow: -moz-scrollbars-vertical;
+    display: inline-block;
+}
+
+#FormDiv
+{
+padding: 4px;
+    overflow: -moz-scrollbars-vertical;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+}
+
+.lblMainTitle
+{
+    font-family: tahoma;
+    font-size: 12px;
+    font-weight: lighter;
+    color: #000000;
+} 
+.lblMainValue
+{
+    color: #006600;
+    font-weight: bold;
+} 
+.lblStbTitle
+{
+    color: #000066;
+    font-family: tahoma;
+    font-size: 11px;
+    font-weight: bolder;
+} 
+.lblStbDESC{
+    color: #000066;
+    font-family: tahoma;
+    font-size: 11px;
+    font-weight: lighter;
+} 
+.txt
+{
+    font-family: tahoma;
+    font-size: 11px;
+} 
+.btn
+{
+    border: 1px solid #000066;
+}
+.commandWindows
+{
+    padding: 5px;
+    border: 1px solid #0033CC;
+    font-family: tahoma;
+    font-size: 12px;
+    display: block;
+    width: 500px;
+    height: 270px;
+    vertical-align: middle;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    position: fixed;
+    overflow: hidden;
+    top: 80px;
+    right: 170px;
+    float: right;
+    z-index: 999999999;
+    background-color: #FFFFFF;
+
+}
+
+
+#tbl_information
+{
+    font-size: 11px;
+    font-family: tahoma;
+    color: #FFFFFF;
+}
+        .Baafheiuwfhefrthyeryerrthyeryer
+{
+    font-weight: bold;
+    color: #FFFF99;
+}
+
+
+.map_canvas_div
+{
+    background-color: rgb(51, 51, 51);
+    position: fixed;
+    top: 100px;
+    right: 175px;
+    bottom: 20px;
+    left: 15px;
+    display: block;
+}
+.map_canvas_div_poi
+{
+    background-color: rgb(51, 51, 51);
+    position: fixed;
+    top: 50px;
+    right: 300px;
+    bottom: 20px;
+    left: 15px;
+    display: block;
+}
+
+.poi_list
+{
+    background-color: rgb(255, 255, 234);
+    position: fixed;
+    top: 50px;
+    right: 190px;
+    bottom: 20px;
+    display: block;
+    width: 100px;
+}
+
+.map_canvas_div_with_Prev_Grid
+{
+    background-color: rgb(51, 51, 51);
+    position: fixed;
+    top: 100px;
+    right: 475px;
+    bottom: 20px;
+    left: 15px;
+    display: block;
+}
+
+
+
+.map_canvas
+{
+    width: 100%;
+    height: 100%;
+
+}
+
+#topmenu td
+{
+    background-color: #FFFFFF;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-topleft: 4px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    font-family: tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    color: #003366;
+}
+
+.PrevWayGridHide
+{
+    font-family: tahoma;
+    font-size: 11px;
+    position: fixed;
+    top: 100px;
+    right: 175px;
+    bottom: 20px;
+    display: block;
+    overflow: -moz-scrollbars-vertical;
+    background-color: #000000;
+    float: right;
+    z-index: 99999999;
+    width: 190px;
+    height: auto;
+    visibility:hidden;
+}
+.PrevWayGridPlay
+{
+    font-family: tahoma;
+    font-size: 11px;
+    position: fixed;
+    top: 100px;
+    right: 175px;
+    bottom: 20px;
+    display: block;
+    overflow: -moz-scrollbars-vertical;
+    background-color: #000000;
+    float: right;
+    z-index: 99999999;
+    width: 190px;
+    height: auto;
+    visibility:visible;
+}
+
+#div_position_detail
+{
+
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 999999999;
+    top: 130px;
+    right: 399px;
+    float: right;
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 50px;
+    
+}
+.tbl_PrevWay
+{
+    border-width: 1px;
+    border-color: #666666;
+    font-family: tahoma;
+    font-size: 11px;
+    background-color: #FFFFFF;
+    margin-top: 3px;
+    border-bottom-style: solid;
+}
+
+
+#div_loginPanel
+{
+    margin: 100 auto 0 auto;
+    width: 400px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    font-family: tahoma;
+    font-size: 11px;
+}
+#div_loginPanel table
+{
+margin: 0 auto;
+    font-family: tahoma;
+    font-size: 11px;
+    text-align: right;
+}
+
+#divRepIDList
+{
+    font-family: tahoma;
+    font-size: 11px;
+    height: 150px;
+    background-color: #E5E5E5;
+    overflow: -moz-scrollbars-vertical;
+    
+}
+
+.CheckBoxRepID
+{
+    font-family: tahoma;
+    font-size: 11px;
+}
